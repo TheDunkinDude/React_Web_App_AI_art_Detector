@@ -1,0 +1,28 @@
+.ContainReportForm{
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+}
+.SelectorBar{
+    width: 100%;
+    height: 35px;
+
+}
+
+.ComplainSection{
+    padding: 5px;
+    margin: auto;
+}
+
+.SubmitBttn{
+    padding: 15px;
+    margin: auto;
+    width: 100%;
+    height: 65px;
+    background-color: white !important;
+    font-size: large;
+}
+
+.SubmitBttn :hover{
+    cursor: pointer !important;
+}

@@ -1,0 +1,46 @@
+body{
+    font-size: 34px
+}
+
+.nave{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.navbar{
+  margin: auto;
+  width: 90%;
+  padding-left: 10px;
+  background-color: rgb(0, 0, 0);
+  align-items: center; 
+}
+
+.navel,.navelright{
+    width: 200px;
+    height: 100px;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0) ;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+ .nave :hover{
+    background-color: rgb(161, 155, 155);
+    color: aliceblue;
+}
+
+.naver{
+    text-align: right;
+    margin-left: auto;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    padding-left: 750px;
+}
+.naver :hover{
+    background-color: rgb(161, 155, 155);
+    color: white;
+
+}
+
