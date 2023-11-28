@@ -36,7 +36,7 @@ function FormAndResults(){
                 formData.append('image', images);
                 console.log('FormData:', formData);
 
-                axios.post('http://localhost:5000/api/upload', formData, {headers: {"Access-Control-Allow-Origin": "*"
+                axios.post('https://backendforaiart.azurewebsites.net', formData, {headers: {"Access-Control-Allow-Origin": "*"
             }} ).then((response) => {
                     console.log(response.data);
                     const res = response.data;
