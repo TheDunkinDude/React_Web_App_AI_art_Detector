@@ -36,7 +36,7 @@ function FormAndResults(){
                 formData.append('image', images);
                 console.log('FormData:', formData);
 
-                axios.post('http://16.16.28.163/api/submit', formData, {headers: {"Access-Control-Allow-Origin": "*"
+                axios.post('https://16.170.98.127//api/submit', formData, {headers: {"Access-Control-Allow-Origin": "*"
             }} ).then((response) => {
                     console.log(response.data);
                     const res = response.data;
