@@ -38,8 +38,7 @@ function FormAndResults(){
 
                  const config = {
                     headers: {
-                        'Content-Type': 'multipart/form-data',
-                        'Access-Control-Allow-Origin': '*',
+                        'Content-Type': 'multipart/form-data'
                         // Add other headers as needed
                     },
                 };
