@@ -36,7 +36,7 @@ function FormAndResults(){
                 formData.append('files', images);
                 console.log('FormData:', formData);
                 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-                axios.post('https://51.20.250.225/api/sub', formData, {headers: {"Access-Control-Allow-Origin": "*"
+                axios.post('https://aiartdetforgen1.ignorelist.com/api/sub', formData, {headers: {"Access-Control-Allow-Origin": "*"
             }} ).then((response) => {
                     console.log(response.data);
                     const res = response.data;
