@@ -35,8 +35,16 @@ function FormAndResults(){
                 const formData = new FormData();
                 formData.append('files', images);
                 console.log('FormData:', formData);
+
+                 const config = {
+                    headers: {
+                        'Content-Type': 'multipart/form-data',
+                        'Access-Control-Allow-Origin': '*',
+                        // Add other headers as needed
+                    },
+                };
                 
-                axios.post('https://aiartdetforgen1.ignorelist.com/api/sub', formData).then((response) => {
+                axios.post('https://aiartdetforgen1.ignorelist.com/api/sub', formData, config).then((response) => {
                     console.log(response.data);
                     const res = response.data;
                     setPred(res.pred)
