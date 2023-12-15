@@ -33,7 +33,7 @@ function FormAndResults(){
 
             if(images){
                 const formData = new FormData();
-                formData.append('files', images);
+                formData.append('file', images);
                 console.log('FormData:', formData);
 
                  const config = {
