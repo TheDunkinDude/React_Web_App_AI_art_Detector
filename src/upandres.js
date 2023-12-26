@@ -43,7 +43,7 @@ function FormAndResults(){
                     },
                 };
                 
-                axios.post('https://aiartdetforgen1.ignorelist.com/api/sub', formData, config).then((response) => {
+                axios.post('https://16.170.63.82/api/sub', formData, config).then((response) => {
                     console.log(response.data);
                     const res = response.data;
                     setPred(res.pred)
