@@ -19,7 +19,7 @@ function Report(){
             
             const formdata = {section,complain};
 
-            axios.post('http://localhost:5000/api/submit', formdata)
+            axios.post('https://16.170.63.82/api/submit', formdata)
             .then(response => {
               console.log(response.data);
               setComplain(null);
