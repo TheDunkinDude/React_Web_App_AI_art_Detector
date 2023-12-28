@@ -22,7 +22,7 @@ function Report(){
             axios.post('https://16.170.63.82/api/submit', formdata)
             .then(response => {
               console.log(response.data);
-              setComplain(null);
+              setComplain(" ");
               setSection('Navigation');
             })
             .catch(error => {
